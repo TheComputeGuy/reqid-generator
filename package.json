@@ -1,0 +1,21 @@
+{
+  "name": "insomnia-plugin-reqid-generator",
+  "version": "1.0.1",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/TheComputeGuy/reqid-generator"
+  },
+  "homepage": "https://github.com/TheComputeGuy/reqid-generator",  
+  "description": "An Insomnia plugin that generates unique request IDs for each of your requests.",
+  "insomnia": {
+    "name": "reqid-generator",
+    "displayName": "Request ID generator",
+    "description": "A plugin that generates unique request IDs for your requests. It can also add app nickname and environment to make it more identifiable and readable. Can be used as request headers to generate unique requests make it easy to trace in logs.",
+    "publisher": {
+        "name": "Shubham Pharande"
+    },
+    "unlisted": false
+  },
+  "main": "main.js"
+}
